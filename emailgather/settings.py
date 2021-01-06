@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'tf5eva2_h^ut1qnr-6nn-)f7t63=hxv^1o9k421up)ct=^lpxa'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://emailgather.herokuapp.com/']
 
 
 # Application definition
